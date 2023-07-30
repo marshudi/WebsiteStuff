@@ -12,6 +12,8 @@
 
 
 ### indexMode.html (Dark/Light)
-![login mode-dark](https://github.com/marshudi/WebsiteStuff/assets/76883519/882d999b-1e9e-4bdb-ada1-aaf1ec7abe9c)
 
-![login mode-light](https://github.com/marshudi/WebsiteStuff/assets/76883519/50371b8e-d31e-4218-a21b-a1819eac09e3)
+![mode light](https://github.com/marshudi/WebsiteStuff/assets/76883519/4a13452f-4c0e-4cec-a431-f4bd00bd61da)
+
+![mode dark](https://github.com/marshudi/WebsiteStuff/assets/76883519/5eefa3cd-b84e-4007-bcdd-bdbd8c2fe81c)
+
