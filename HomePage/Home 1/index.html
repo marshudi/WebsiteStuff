@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Home Page - 1</title>
+
+    <style>
+        * {
+                box-sizing: border-box
+              }
+              body {
+                font-family: Verdana, sans-serif;
+                margin: 0
+              }
+              .mySlides {
+                display: none
+              }
+              img {
+                vertical-align: middle;
+              }
+              .slideshow-container {
+                max-width: 1000px;
+                position: relative;
+                margin: auto;
+              }
+              /* Next & previous buttons */
+              .prev,
+              .next {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                width: auto;
+                padding: 16px;
+                margin-top: -22px;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+              }
+              /* Position the "next button" to the right */
+              .next {
+                right: 0;
+                border-radius: 3px 0 0 3px;
+              }
+              /* On hover, add a black background color with a little bit see-through */
+              .prev:hover,
+              .next:hover {
+                background-color: rgba(0, 0, 0, 0.8);
+              }
+              /* Caption text */
+              .text {
+                color: #ffffff;
+                font-size: 15px;
+                padding: 8px 12px;
+                position: absolute;
+                bottom: 8px;
+                width: 100%;
+                text-align: center;
+              }
+              /* Number text (1/3 etc) */
+              .numbertext {
+                color: #ffffff;
+                font-size: 12px;
+                padding: 8px 12px;
+                position: absolute;
+                top: 0;
+              }
+              /* The dots/bullets/indicators */
+              .dot {
+                cursor: pointer;
+                height: 15px;
+                width: 15px;
+                margin: 0 2px;
+                background-color: #999999;
+                border-radius: 50%;
+                display: inline-block;
+                transition: background-color 0.6s ease;
+              }
+              .active,
+              .dot:hover {
+                background-color: #111111;
+              }
+              /* Fading animation */
+              .fade {
+                -webkit-animation-name: fade;
+                -webkit-animation-duration: 1.5s;
+                animation-name: fade;
+                animation-duration: 1.5s;
+              }
+              @-webkit-keyframes fade {
+                from {
+                  opacity: .4
+                }
+                to {
+                  opacity: 1
+                }
+              }
+              @keyframes fade {
+                from {
+                  opacity: .4
+                }
+                to {
+                  opacity: 1
+                }
+              }
+              /* On smaller screens, decrease text size */
+              @media only screen and (max-width: 300px) {
+                .prev,
+                .next,
+                .text {
+                  font-size: 11px
+                }
+              }
+        
+            </style>
+</head>
+<body>
+   
+
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        
+        <img src="https://images.unsplash.com/photo-1475687628081-a6cdfccba7ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80" style="width:100%">
+        <div class="text">Image 1</div>
+      </div>
+      <div class="mySlides fade">
+        
+        <img src="https://images.unsplash.com/photo-1414500923875-1704944d8df7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80" style="width:100%">
+        <div class="text">Image 2</div>
+      </div>
+      <div class="mySlides fade">
+        
+        <img src="https://images.unsplash.com/photo-1505656898056-c200a81daa66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80" style="width:100%">
+        <div class="text">Image 3</div>
+      </div>
+      
+      <div class="mySlides fade">
+        
+        <img src="https://images.unsplash.com/photo-1599463769089-8619e5f13a11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" style="width:100%">
+        <div class="text">Image 4 </div>
+      </div>
+
+
+
+      <div class="mySlides fade">
+        
+        <img src="https://images.unsplash.com/photo-1652980908115-6a54d1566262?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" style="width:100%">
+        <div class="text">Image 5</div>
+      </div>
+      <div class="mySlides fade">
+        
+        <img src="https://images.unsplash.com/photo-1596464263722-67dd3251d7bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" style="width:100%">
+        <div class="text">Image 6</div>
+      </div>
+      <div class="mySlides fade">
+        
+        <img src="https://images.unsplash.com/photo-1668936782743-86a566b7286f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80" style="width:100%">
+        <div class="text">Image 7</div>
+      </div>
+
+      
+        
+       
+
+
+
+    </div>
+
+
+    <script>
+      var slideIndex = 0;
+      showSlides();
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for(i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if(slideIndex > slides.length) {
+          slideIndex = 1
+        }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 5000); // Change image every 5 seconds
+      }
+    </script>
+
+
+<main class="p-4 flex-grow bg-gray-200">
+
+<div class="bg-blue-50 text-gray-800 py-20 px-6">
+  <h1 class="text-center text-5xl font-bold mt-0 mb-6">Lorem Ipsum!</h1>
+  <h3 class="text-3xl  mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at lacus et odio euismod consectetur ac a nisi. Duis vehicula, urna eget finibus varius, dui magna dapibus sem, id tempus ligula diam et nibh. Nulla a blandit sem. Quisque tristique suscipit odio sed varius. Nunc ac urna.</h3>
+
+    <h3 class="text-3xl  mb-8">nteger interdum nulla a quam euismod bibendum. Vivamus massa dolor, interdum ut enim in, posuere elementum ante. Nunc tincidunt felis at augue viverra mattis. Aenean fermentum convallis vulputate. Aliquam placerat justo quis felis feugiat convallis. Morbi a metus a tortor vulputate volutpat quis vitae ligula. Nunc elementum sem vel diam venenatis finibus. Nullam tempor metus nec urna lobortis imperdiet. Pellentesque in odio ut nunc venenatis lacinia. Nulla facilisi.</h3>
+
+    <br>
+    <br>
+    <h3 class="text-center text-3xl  mb-8">To connect visitors with endless experiences. Register with us now and be part of our exciting journey to discover Wbsite.</h3>
+    <div class="text-center bg-blue-50 text-gray-800 py-20 px-6">
+    
+  <a class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md 
+  hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 
+  active:shadow-lg transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light" href="#" 
+  role="button">Get started</a>
+    </div>
+</div>
+
+
+
+</main>
+</body>
+</html>
