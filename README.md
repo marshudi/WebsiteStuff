@@ -7,7 +7,7 @@ WebsiteStuff is a repository designed to store various resources and assets that
 The primary purpose of WebsiteStuff is to simplify the process of finding and incorporating essential components into your website. Instead of spending time searching for specific resources online, you can leverage this repository as a centralized hub for all your website-related needs. By organizing and categorizing different types of assets, WebsiteStuff enables efficient retrieval and utilization, ultimately saving you time and effort.
 
 ## Contents
-
+ 
 The repository includes the following categories of resources:
 
 1. **Icons**: A collection of icons suitable for various purposes and styles.
