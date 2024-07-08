@@ -1,5 +1,5 @@
 # WebsiteStuff
- 
+  
 WebsiteStuff is a repository designed to store various resources and assets that you may find useful for your website. Whether you need icons, images, templates, or any other website-related elements, this repository aims to provide a collection of such resources for easy access and integration into your projects.
                   
 ## Purpose
